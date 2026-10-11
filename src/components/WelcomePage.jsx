@@ -10,7 +10,7 @@ const WelcomePage = () => {
 
   return (
       <div className='relative flex flex-col bg-slate-300 rounded-lg items-center justify-center overflow-hidden h-full'>
-        <h1 className='font-bold text-5xl mb-2 z-10'>Quizzical</h1>
+        <h1 className='font-bold text-5xl mb-2 z-10'>Quizzit</h1>
         <p className='mb-8 z-10'>Test your knowledge about the whole world</p>
         {questionsInfo ? <button className='py-4 px-8 text-white bg-indigo-900 rounded-md active:bg-indigo-800 active:scale-105 z-10' onClick={() => setIsRunning(prev => !prev)}>Start Quiz</button> : <button className='py-4 px-8 text-white bg-indigo-900 rounded-md active:bg-indigo-800 active:scale-105 z-10'>Getting Your Questions</button>}
         <img src={Tright} alt="blob2" className='absolute w-25 top-0 right-0 z-0'/>
